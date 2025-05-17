@@ -1,0 +1,13 @@
+{
+  "name": "compatible-server",
+  "version": "1.0.0",
+  "description": "OpenAI格式兼容的DeepSeek API代理服务器",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2"
+  }
+} 
