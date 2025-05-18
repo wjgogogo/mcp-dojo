@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "MCP Dojo",
   "scripts": {
-    "start:server": "pnpm --filter compatible-server start"
+    "start:model": "pnpm --filter compatible-server start",
+    "start:mcp": "pnpm --filter mcp-server start"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
   }
 }
