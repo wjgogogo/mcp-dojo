@@ -1,0 +1,20 @@
+{
+  "id": "49d2a8a9-757f-42d2-9341-9902022332e3",
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<attempt_completion>\n<result>\n今天的LeetCode每日挑战问题是：\n\n题目ID: 3068\n标题: Find the Maximum Sum of Node Values\n难度: Hard\n链接: https://leetcode.com/problems/find-the-maximum-sum-of-node-values/\n\n问题描述:\n给定一个无向树，每个节点有一个初始值。可以进行任意次数的操作：选择任意边，将该边连接的两个节点的值分别与k进行XOR运算。目标是使所有节点值的和最大化。\n\n示例1:\n输入: nums = [1,2,1], k = 3, edges = [[0,1],[0,2]]\n输出: 6\n解释: 选择边[0,2]，节点值变为[2,2,2]，总和为6\n\n示例2:\n输入: nums = [2,3], k = 7, edges = [[0,1]]\n输出: 9\n解释: 选择边[0,1]，节点值变为[5,4]，总和为9\n\n约束条件:\n- 2 <= n <= 2 * 10^4\n- 1 <= k <= 10^9\n- 0 <= nums[i] <= 10^9\n- edges表示一棵有效的树\n\n相关标签: 数组、动态规划、贪心算法、位运算、树、排序\n\n解题提示:\n1. 选择任意节点作为根节点\n2. 使用动态规划，dp[x][c]表示以x为根的子树的最大和，c表示x与其父节点之间的边是否被选中\n3. 也可以考虑nums[i] XOR k > nums[i]的节点数量的奇偶性\n</result>\n</attempt_completion>"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1747987852,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

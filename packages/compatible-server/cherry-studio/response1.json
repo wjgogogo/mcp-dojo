@@ -1,0 +1,20 @@
+{
+  "id": "b60e3208-bcf4-4cf3-8ce8-02ed0449759e",
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<tool_use>\n  <name>fUQ8iBJDmkCKZSjTDREEWm</name>\n  <arguments>{}</arguments>\n</tool_use>"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1747971625,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

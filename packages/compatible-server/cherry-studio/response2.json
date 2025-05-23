@@ -1,0 +1,20 @@
+{
+  "id": "471f34e3-3801-4e09-a634-5110a94112f9",
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "今天的LeetCode每日挑战问题详情如下：\n\n**题目名称**：Find the Maximum Sum of Node Values（找到节点值的最大和）\n\n**难度**：Hard（困难）\n\n**题目ID**：3068\n\n**题目描述**：\n给定一个无向树，包含n个节点（编号0到n-1）。给定一个0索引的2D整数数组edges（长度为n-1），其中edges[i] = [uᵢ, vᵢ]表示节点uᵢ和vᵢ之间存在边。还给定一个正整数k，和一个长度为n的非负整数数组nums，其中nums[i]表示节点i的值。\n\nAlice可以通过以下操作（可以执行任意次数，包括零次）来使树节点的值之和最大化：\n1. 选择任意连接节点u和v的边\n2. 更新它们的值：\n   - nums[u] = nums[u] XOR k\n   - nums[v] = nums[v] XOR k\n\n返回Alice通过执行任意次数操作可以达到的节点值的最大可能和。\n\n**示例**：\n1. 输入：nums = [1,2,1], k = 3, edges = [[0,1],[0,2]]\n   输出：6\n   解释：Alice可以通过一次操作达到最大值6：\n   - 选择边[0,2]。nums[0]和nums[2]变为：1 XOR 3 = 2，数组变为[2,2,2]\n   - 总和为2 + 2 + 2 = 6\n\n2. 输入：nums = [2,3], k = 7, edges = [[0,1]]\n   输出：9\n   解释：Alice可以通过一次操作达到最大值9：\n   - 选择边[0,1]。nums[0]变为2 XOR 7 = 5，nums[1]变为3 XOR 7 = 4\n   - 总和为5 + 4 = 9\n\n**约束条件**：\n- 2 <= n == nums.length <= 2 * 10⁴\n- 1 <= k <= 10⁹\n- 0 <= nums[i] <= 10⁹\n- edges.length == n - 1\n- edges[i].length == 2\n- 0 <= edges[i][0], edges[i][1] <= n - 1\n- 输入保证edges表示一棵有效的树\n\n**相关标签**：\n- 数组(Array)\n- 动态规划(Dynamic Programming)\n- 贪心算法(Greedy)\n- 位操作(Bit Manipulation)\n- 树(Tree)\n- 排序(Sorting)\n\n**相似问题**：\n1. Maximum Score After Applying Operations on a Tree\n2. Find Number of Coins to Place in Tree Nodes\n\n**提示**：\n1. 选择任意节点作为根\n2. 使用动态规划方法计算子树的最大和\n3. 也可以考虑使用贪心算法，通过分析nums[i] XOR k > nums[i]的节点数量的奇偶性来解决问题\n\n你可以通过以下链接查看完整题目内容：https://leetcode.com/problems/find-the-maximum-sum-of-node-values/"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1747971665,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

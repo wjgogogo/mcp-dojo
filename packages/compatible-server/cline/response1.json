@@ -1,0 +1,20 @@
+{
+  "id": "7405aeb0-9088-4891-a3b2-1dcefdda670a",
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<thinking>\n1. 任务要求获取今天的LeetCode每日挑战问题的详细信息\n2. 查看已连接的MCP服务器列表，发现有leetcode服务器可用\n3. leetcode服务器提供了get_daily_challenge工具，可以获取每日挑战问题\n4. 该工具不需要任何输入参数\n5. 可以直接使用use_mcp_tool调用这个工具来完成任务\n</thinking>\n\n<use_mcp_tool>\n<server_name>leetcode</server_name>\n<tool_name>get_daily_challenge</tool_name>\n<arguments>\n{}\n</arguments>\n</use_mcp_tool>"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1747987773,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}
